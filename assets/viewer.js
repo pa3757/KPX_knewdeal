@@ -10,7 +10,7 @@
   const src = (i, thumb) => `slides/${pad(i + 1)}${thumb ? '_t' : ''}.webp`;
   let idx = 0;
 
-  // 교시 선택 목록
+  // 파트 선택 목록
   const secStart = [];
   slides.forEach((s, i) => { if (!secStart.find((x) => x.name === s.section)) secStart.push({ name: s.section, i }); });
   secStart.forEach(({ name, i }) => {
