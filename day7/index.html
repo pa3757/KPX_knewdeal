@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>특별 실습 · Claude로 정리하는 내 이력 데이터 (JSON)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="viewer-page">
+<header class="topbar">
+  <a class="home" href="../">KPX 바이브코딩 교안</a>
+  <div class="day-title"><b>특별 실습</b> Claude로 정리하는 내 이력 데이터 (JSON)</div>
+</header>
+<main class="viewer">
+  <div class="stage-wrap">
+    <div class="stage" id="stage">
+      <img id="slide" alt="" src="slides/01.webp" width="1920" height="1080">
+      <button class="nav prev" id="prev" aria-label="이전 슬라이드">‹</button>
+      <button class="nav next" id="next" aria-label="다음 슬라이드">›</button>
+    </div>
+    <div class="controls">
+      <select id="section" aria-label="파트 이동"></select>
+      <span class="counter"><b id="cur">1</b> / 21</span>
+      <div class="ctrl-btns">
+        <button class="btn ghost" id="toggle-grid" title="전체 보기 (G)">전체 보기</button>
+        <button class="btn" id="fullscreen" title="전체 화면 (F)">전체 화면</button>
+      </div>
+    </div>
+    <div class="links" id="links" hidden></div>
+    <nav class="pager"><a class="btn ghost" href="../day6/">← 모듈 6</a><span></span></nav>
+  </div>
+  <div class="grid" id="grid" hidden></div>
+</main>
+<script id="deck-data" type="application/json">{"day": 7, "slides": [{"title": "Claude로 정리하는 내 이력 데이터", "links": [], "section": "시작"}, {"title": "오늘의 흐름", "links": [], "section": "시작"}, {"title": "이력을 한 번만 정리하기", "links": [], "section": "1 · 왜, 그리고 JSON"}, {"title": "지원서를 쓸 때마다 반복되는 네 가지", "links": [], "section": "1 · 왜, 그리고 JSON"}, {"title": "매번 다시 쓰기 vs 한 번 정리해 두기", "links": [], "section": "1 · 왜, 그리고 JSON"}, {"title": "JSON이 무엇인가요: 키와 값으로 적는 데이터", "links": [], "section": "1 · 왜, 그리고 JSON"}, {"title": "JSON 읽어 보기: 강사의 실제 이력 파일 일부", "links": [], "section": "1 · 왜, 그리고 JSON"}, {"title": "왜 JSON인가: 줄글로 줄 때 vs JSON으로 줄 때", "links": [], "section": "1 · 왜, 그리고 JSON"}, {"title": "JSON 한 파일로 만든 것: 연도별 일대기 페이지", "links": [], "section": "1 · 왜, 그리고 JSON"}, {"title": "실습 ① 내 이력 JSON 만들기", "links": [], "section": "2 · 실습 ① 내 이력 JSON 만들기"}, {"title": "내 이력 JSON을 만드는 다섯 단계", "links": [], "section": "2 · 실습 ① 내 이력 JSON 만들기"}, {"title": "JSON 뼈대: 이 구조로 정리해 달라고 합니다", "links": [], "section": "2 · 실습 ① 내 이력 JSON 만들기"}, {"title": "실습: 내 이력을 JSON으로 정리하기", "links": [], "section": "2 · 실습 ① 내 이력 JSON 만들기"}, {"title": "원본과 대조하기: AI가 자주 틀리는 곳", "links": [], "section": "2 · 실습 ① 내 이력 JSON 만들기"}, {"title": "실습: 대조하고 고쳐서 저장하기", "links": [], "section": "2 · 실습 ① 내 이력 JSON 만들기"}, {"title": "실습 ② 지원서와 자기소개서에 쓰기", "links": [], "section": "3 · 실습 ② 지원서·자기소개서에 쓰기"}, {"title": "JSON 하나로 할 수 있는 일", "links": [], "section": "3 · 실습 ② 지원서·자기소개서에 쓰기"}, {"title": "실습: 지원서 항목 뽑기", "links": [], "section": "3 · 실습 ② 지원서·자기소개서에 쓰기"}, {"title": "실습: 자기소개서 문항 초안 받기", "links": [], "section": "3 · 실습 ② 지원서·자기소개서에 쓰기"}, {"title": "3 · 실습 ② 지원서·자기소개서에 쓰기", "links": [], "section": "3 · 실습 ② 지원서·자기소개서에 쓰기"}, {"title": "정리는 한 번, 쓰는 것은 여러 번", "links": [], "section": "마무리"}], "sections": ["시작", "1 · 왜, 그리고 JSON", "2 · 실습 ① 내 이력 JSON 만들기", "3 · 실습 ② 지원서·자기소개서에 쓰기", "마무리"]}</script>
+<script src="../assets/viewer.js"></script>
+</body>
+</html>
